@@ -1,0 +1,11 @@
+spring:
+  resources:
+    static-locations: ["/templates/","/static/"]
+  thymeleaf:
+    encoding: utf-8
+    cache: false
+    mode: LEGACYHTML5
+    enabled: true
+    prefix: classpath:/templates/
+server:
+  port: 8086
